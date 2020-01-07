@@ -117,7 +117,7 @@ train and test：要求 update gpu driver 或者 改 pytorch 的 version（ comp
 		apt-get install python-pip
 
     ~~Test pre-trained model 目前没有报错, evaluation还在跑~~ 
-    ####runtimeerror: cuda error: an illegal memory access was encoutered
+    ### runtimeerror: cuda error: an illegal memory access was encoutered
     没有yaml文件 调参？
 
 ps: MAX_ITER一开始调参时可以设小一点，能够短时间内看效果
