@@ -78,6 +78,7 @@ PASCAL Context : 8
 https://github.com/CSAILVision/semantic-segmentation-pytorch  
 http://scenesegmentation.csail.mit.edu/  
 PASCAL Context: # 3
+运行报错
 
 -数据集
 * PASCAL-Context Dataset：(少)  
