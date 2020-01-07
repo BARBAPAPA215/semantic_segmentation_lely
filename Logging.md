@@ -16,7 +16,7 @@
 
 # 13/12/2019
 
--- 准备讨论 （仅考虑有github的论文，以及 2018，2019 发表的）
+-准备讨论 （仅考虑有github的论文，以及 2018，2019 发表的）
 
 *  DeepLabv3+: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation 2018
 在PASCAL VOC 2012数据集上的准确度排名第一。PASCAL VOC 2012 排名前几名的都是2018年的论文，SANet（2019）排名第六。
@@ -31,7 +31,7 @@
 *  轻量级网络, 权衡速度和准确性
 *  实时语义分割， 最佳的是DFANet，旷视的论文，2019年发表的好像还没有开源但是有非官方的code，相比于先前的 BiSeNet 和 ICNet 等，在相近精度的条件下 DFANet 可以极大地减少运算量。而和 ENet 等小计算量方法相比，DFANet的精度有巨大提升。在计算量受限的前提下DFANet是能在高分辨率图片上达到准确度媲美主流“大模型”的轻量化网络。
 
---- Feedback
+-Feedback
 * deeplabv3+ 以及另外三个左右的paper精读
 
 * ps: 其他的数据集 比如coco，
@@ -48,7 +48,7 @@ screen -S yuanhao
 
 # 7/1/2020  
 
--准备讨论：
+-讨论文章
 * 1.Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation （60,254）
 
 * 2.Context Encoding for Semantic Segmentation （1164）
@@ -77,14 +77,14 @@ https://github.com/CSAILVision/semantic-segmentation-pytorch
 http://scenesegmentation.csail.mit.edu/
 PASCAL Context: # 3
 
--- 数据集：
+-数据集
 * PASCAL-Context Dataset：(少)
 https://cs.stanford.edu/~roozbeh/pascal-context/
 
 * ADE20K ：多, 稀疏
 是用来做 scene parsing 的一个非常大的数据集合，包含 150 中物体类型，由 MIT CSAIL 研究组维护。数据集主页在 http://groups.csail.mit.edu/vision/datasets/ADE20K/
 
--运行:
+-运行
 
 * 5.HRNetV2(HRNetV2-W48)： Deep High-Resolution Representation Learning for Visual Recognition 
 现在的问题：
